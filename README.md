@@ -1,5 +1,5 @@
 
-# C$50 Finance
+# CS50 Finance
 
 ## Background
 
