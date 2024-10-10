@@ -42,13 +42,6 @@ MODEL-VIEW-CONTROLLER (MVC)  design pattern
 	- view=what user sees, templates,
   - controller=application.py, the logics that connect M-V, plus routing
 
-- jinja: Used in HTML templates: {{ var }} , {% block x %} {% endblock %}.
-
-
-Make use of TEMPLATES: factor out a COMMON layout.html
-- {% block body %} {% endblock %}
-- in index.html, about.html, etc.: {% extends "layout.html" %} {% block body %} the content {% endblock %}
-
 SENDING emails with Flask:
  ![image](https://user-images.githubusercontent.com/58123635/121848227-bdc7c700-ccb7-11eb-8e8e-9a6f35a22a7e.png)
 
